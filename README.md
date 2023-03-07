@@ -1,23 +1,26 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Sistemas para Internet`
 
-`DISCIPLINA`
+`Eixo 2 - Projeto: Desenvolvimento Web Front-End`
 
-`SEMESTRE`
+`2º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto se trata de uma plataforma web que concentrará informações sobre reciclagem e sobre projetos de coleta seletiva na cidade de Pirenópolis, no Estado de Goiás.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Andrey Giovanni Ribeiro de Castilho Costa
+* Angélica Scot de Almeida
+* Maria Michele de Freitas
+* Matheus Soares De Sales
+* Nicolas Felipe Petrachin Wulk
+* Raquel Bomjardim Ferreira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
+
 
 ## Instruções de utilização
 
