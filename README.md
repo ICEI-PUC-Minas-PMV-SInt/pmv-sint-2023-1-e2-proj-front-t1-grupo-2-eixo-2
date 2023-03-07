@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Projeto Recicla
 
 `Sistemas para Internet`
 
