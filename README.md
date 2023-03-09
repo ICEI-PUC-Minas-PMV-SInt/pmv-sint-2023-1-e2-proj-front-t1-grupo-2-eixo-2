@@ -43,10 +43,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# : Código
+# Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
-# Apresentação
+# 📽️ Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
