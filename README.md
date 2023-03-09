@@ -1,6 +1,6 @@
-# Projeto Recicla
+# ♻️ Projeto Recicla
 
-`Sistemas para Internet`
+🖥️ `Sistemas para Internet`
 
 `Eixo 2 - Projeto: Desenvolvimento Web Front-End`
 
@@ -8,25 +8,24 @@
 
 O projeto se trata de uma plataforma web que concentrará informações sobre reciclagem e sobre projetos de coleta seletiva na cidade de Pirenópolis, no Estado de Goiás.
 
-## Integrantes
+## 🧠 Integrantes
 
-* Andrey Giovanni Ribeiro de Castilho Costa
-* Angélica Scot de Almeida
-* Maria Michele de Freitas
-* Matheus Soares De Sales
-* Nicolas Felipe Petrachin Wulk
-* Raquel Bomjardim Ferreira
+- Andrey Giovanni Ribeiro de Castilho Costa
+- Angélica Scot de Almeida
+- Maria Michele de Freitas
+- Matheus Soares De Sales
+- Nicolas Felipe Petrachin Wulk
+- Raquel Bomjardim Ferreira
 
-## Orientador
+## 🧑‍🏫 Orientador
 
-* Nathalia Assis Valentim
+- Nathalia Assis Valentim
 
-
-## Instruções de utilização
+## 🗒️ Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-# Documentação
+# 📖 Documentação
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -44,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+# : Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
