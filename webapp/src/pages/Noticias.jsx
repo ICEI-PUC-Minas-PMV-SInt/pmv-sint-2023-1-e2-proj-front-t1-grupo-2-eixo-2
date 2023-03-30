@@ -1,5 +1,7 @@
+import { Typography } from "@mui/material";
+
 function Noticias() {
-  return <h1>NOTÍCIAS</h1>;
+  return <Typography variant="h2">NOTÍCIAS</Typography>;
 }
 
 export { Noticias };

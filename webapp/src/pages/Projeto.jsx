@@ -1,5 +1,7 @@
+import { Typography } from "@mui/material";
+
 function Projeto() {
-  return <h1>PROJETO CATAPIRI</h1>;
+  return <Typography variant="h2">PROJETO CATAPIRI</Typography>;
 }
 
 export { Projeto };

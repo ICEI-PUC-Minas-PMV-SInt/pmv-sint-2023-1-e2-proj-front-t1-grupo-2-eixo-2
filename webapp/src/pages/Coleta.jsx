@@ -1,5 +1,7 @@
+import { Typography } from "@mui/material";
+
 function Coleta() {
-  return <h1>ROTAS DE COLETA</h1>;
+  return <Typography variant="h2">COLETA</Typography>;
 }
 
 export { Coleta };

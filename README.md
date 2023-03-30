@@ -6,7 +6,7 @@
 
 `2º SEMESTRE`
 
-O projeto se trata de uma plataforma web que concentrará informações sobre reciclagem e sobre projetos de coleta seletiva na cidade de Pirenópolis, no Estado de Goiás.
+O projeto se trata de uma plataforma web que concentrará informações sobre reciclagem, eventos relacionados ao manejo, destinação e reciclagem do lixo e sobre o projeto de coleta seletiva chamado Projeto CataPiri, uma cooperativa de catadores, na cidade de Pirenópolis, no Estado de Goiás.
 
 ## 🧠 Integrantes
 
