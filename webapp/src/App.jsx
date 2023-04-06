@@ -1,4 +1,10 @@
-import { Container, createTheme, Paper, ThemeProvider } from "@mui/material";
+import {
+  Box,
+  Container,
+  createTheme,
+  Paper,
+  ThemeProvider,
+} from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import { green, lightBlue, grey } from "@mui/material/colors";
 import React from "react";
@@ -8,7 +14,7 @@ import { Router } from "./Router";
 const theme = createTheme({
   palette: {
     background: {
-      default: grey[50],
+      default: grey[200],
     },
     primary: {
       main: green[500],
@@ -27,11 +33,11 @@ export function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Paper>
+        <Box boxShadow={`0 0 8px ${grey[400]}`} bgcolor={grey[50]}>
           <BrowserRouter>
             <Router />
           </BrowserRouter>
-        </Paper>
+        </Box>
       </Container>
     </ThemeProvider>
   );
