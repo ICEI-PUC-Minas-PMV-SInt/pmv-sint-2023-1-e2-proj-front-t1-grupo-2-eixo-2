@@ -8,7 +8,7 @@ import { Router } from "./Router";
 const theme = createTheme({
   palette: {
     background: {
-      default: grey[50],
+      default: grey[200],
     },
     primary: {
       main: green[500],
@@ -18,6 +18,12 @@ const theme = createTheme({
     },
   },
   typography: {
+    h1: { color: grey[800] },
+    h2: { color: grey[800] },
+    h3: { color: grey[800] },
+    h4: { color: grey[800] },
+    h5: { color: grey[800] },
+    caption: { color: grey[600] },
     fontFamily: "Inter, sans-serif",
   },
 });
@@ -27,7 +33,7 @@ export function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Paper>
+        <Paper sx={{ background: grey[50] }}>
           <BrowserRouter>
             <Router />
           </BrowserRouter>
