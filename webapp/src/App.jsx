@@ -24,6 +24,12 @@ const theme = createTheme({
     },
   },
   typography: {
+    h1: { color: grey[800] },
+    h2: { color: grey[800] },
+    h3: { color: grey[800] },
+    h4: { color: grey[800] },
+    h5: { color: grey[800] },
+    caption: { color: grey[600] },
     fontFamily: "Inter, sans-serif",
   },
 });
