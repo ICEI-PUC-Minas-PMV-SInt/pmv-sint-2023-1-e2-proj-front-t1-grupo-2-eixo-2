@@ -11,10 +11,6 @@ permissions:
   pages: write
   id-token: write
 
-defaults:
-  run:
-    working-directory: webapp
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -24,6 +20,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+       working-directory: webapp
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
