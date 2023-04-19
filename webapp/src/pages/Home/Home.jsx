@@ -17,6 +17,8 @@ function Home() {
         <Grid container>
           <Grid height={250} xs={3}>
             <Card>
+              <DefaultButton color="primary">My Primary</DefaultButton>
+              <DefaultButton color="secondary">My Seconday</DefaultButton>
               <CardHeader title="Eventos" />
             </Card>
           </Grid>
