@@ -13,22 +13,26 @@ permissions:
 
 defaults:
   run:
-    working-directory: ./webapp
+    working-directory: webapp
 
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
+  
+defaults:
+  run:
+   working-directory: ./webapp
+   
 jobs:
  deploy:
    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-   defaults:
+    defaults:
       run:
-       working-directory: ./webapp
-   runs-on: ubuntu-latest
-   steps:
+       working-directory: webapp
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up Node
@@ -36,6 +40,7 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
+          cache-dependency-path: './webapp/package-lock.json'
       - name: Install dependencies
         run: npm install
       - name: Build
@@ -46,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: "./dist"
+          path: "./webapp/dist"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

@@ -2,6 +2,29 @@
 
 # ♻️ Projeto Catapiri - Documentação
 
+## Inicilizando o projeto
+
+Para iniciar o projeto localmente, primeiramente clone o repositório em seu computador:
+
+```yml
+git clone https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-1-e2-proj-front-t1-grupo-2-eixo-2.git
+```
+
+Depois, navegue até a pasta webapp e instale as dependências, utilizando npm ou yarn:
+
+```yml
+cd .\webapp\
+npm install
+```
+
+Por fim, para iniciar um servidor local de desenvolvimento, utilize o seguinte comando, dentro da pasta webapp:
+
+```yml
+npm run dev
+```
+
+O servidor será iniciado e estará disponível na URL: http://127.0.0.1:5173/
+
 ## 📁 Estrutura de Pastas
 
 ### Estruturação de arquivos do Projeto

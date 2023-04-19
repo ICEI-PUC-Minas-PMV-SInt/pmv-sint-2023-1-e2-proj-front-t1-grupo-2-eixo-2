@@ -1,12 +1,13 @@
 import { Card, CardHeader, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import Box from "@mui/material/Box";
+import { Header } from "../../components/Header";
 function Home() {
   return (
     //<Box sx={{ flex: 1 }}>
     <Grid container p={2} spacing={2}>
       <Grid height={108} xs={12}>
-        <Typography>Header</Typography>
+        <Header />
       </Grid>
       <Grid height={400} xs={12}>
         <Typography>Banner Destaque</Typography>
