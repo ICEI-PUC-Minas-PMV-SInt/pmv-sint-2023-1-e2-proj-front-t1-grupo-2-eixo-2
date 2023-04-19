@@ -1,4 +1,4 @@
-name: Node.js CI - Deploy Vite to Pages
+name: Node.js CI - Deploy Vite to GitHub Pages
 
 on:
   push:
@@ -13,25 +13,21 @@ permissions:
 
 defaults:
   run:
-    working-directory: webapp
+    working-directory: ./webapp
 
 concurrency:
   group: "pages"
   cancel-in-progress: true
-  
-defaults:
-  run:
-   working-directory: ./webapp
-   
+
 jobs:
- deploy:
-   environment:
+  deploy:
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     defaults:
       run:
-       working-directory: webapp
-    runs-on: ubuntu-latest
+        working-directory: ./webapp
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -40,7 +36,7 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
-          cache-dependency-path: './webapp/package-lock.json'
+          cache-dependency-path: "./webapp/package-lock.json"
       - name: Install dependencies
         run: npm install
       - name: Build
