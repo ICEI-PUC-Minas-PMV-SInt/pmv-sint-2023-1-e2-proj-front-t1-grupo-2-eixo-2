@@ -7,10 +7,10 @@ import {
   Container,
   IconButton,
   Menu,
-  MenuIcon,
   MenuItem,
   Toolbar,
 } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 import { Link as RouterLink } from "react-router-dom";
 
 // lista as páginas e referências a serem exibidas no menu
