@@ -4,13 +4,11 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-//importa as imagens dos logos
 import iconEventos from "../assets/icon-eventos.png";
 import iconReciclagem from "../assets/icon-reciclagem.png";
 import iconRotas from "../assets/icon-rotas.png";
 import iconInfo from "../assets/icon-info.png";
 
-//cria o componente CardHomeEventos
 function CardHomeEventos() {
   return (
     <CardActionArea href="/Eventos">
