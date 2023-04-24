@@ -1,11 +1,6 @@
 import { Card, CardHeader, Typography, Grid } from "@mui/material";
 import { Header } from "../../components/Header";
-import {
-  CardHomeEventos,
-  CardHomeInfo,
-  CardHomeReciclagem,
-  CardHomeRotas,
-} from "../../components/CardHome";
+import { DestaquesHome } from "../../components/CardHome";
 
 function Home() {
   return (
@@ -16,30 +11,7 @@ function Home() {
       <Grid item height={400} xs={12}>
         <Typography>Banner Destaque</Typography>
       </Grid>
-      <Grid
-        container
-        spacing={2}
-        justifyContent="space-evenly"
-        alignItems="stretch"
-        sx={{
-          textAlign: "center",
-          margin: 0,
-          backgroundColor: "inherit",
-        }}
-      >
-        <Grid item sm={6} md={3}>
-          <CardHomeEventos />
-        </Grid>
-        <Grid item sm={6} md={3}>
-          <CardHomeReciclagem />
-        </Grid>
-        <Grid item sm={6} md={3}>
-          <CardHomeInfo />
-        </Grid>
-        <Grid item sm={6} md={3}>
-          <CardHomeRotas />
-        </Grid>
-      </Grid>
+      <DestaquesHome />
       <Grid item height={200} xs={12}>
         <Typography>Parceiros</Typography>
       </Grid>
