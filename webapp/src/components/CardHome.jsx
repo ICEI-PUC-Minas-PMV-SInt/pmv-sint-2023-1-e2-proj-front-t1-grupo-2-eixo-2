@@ -154,7 +154,7 @@ function CardHomeRotas() {
   );
 }
 
-function DestaquesHome() {
+function CardsHome() {
   return (
     <Grid
       container
@@ -183,4 +183,4 @@ function DestaquesHome() {
   );
 }
 
-export { DestaquesHome };
+export { CardsHome };

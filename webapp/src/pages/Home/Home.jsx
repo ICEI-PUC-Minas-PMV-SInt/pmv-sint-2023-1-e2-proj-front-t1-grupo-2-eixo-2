@@ -1,6 +1,7 @@
 import { Card, CardHeader, Typography, Grid } from "@mui/material";
 import { Header } from "../../components/Header";
-import { DestaquesHome } from "../../components/CardHome";
+import { CardsHome } from "../../components/CardHome";
+import { Footer } from "../../components/Footer";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <Grid item height={400} xs={12}>
         <Typography>Banner Destaque</Typography>
       </Grid>
-      <DestaquesHome />
+      <CardsHome />
       <Grid item height={200} xs={12}>
         <Typography>Parceiros</Typography>
       </Grid>
@@ -35,8 +36,8 @@ function Home() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item height={200} xs={12}>
-        <Typography>Footer</Typography>
+      <Grid item xs={12}>
+        <Footer />
       </Grid>
     </Grid>
     //</Box>
