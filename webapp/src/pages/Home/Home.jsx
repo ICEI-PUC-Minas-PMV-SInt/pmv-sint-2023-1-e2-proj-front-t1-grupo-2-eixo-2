@@ -22,16 +22,9 @@ function Home() {
         justifyContent="space-evenly"
         alignItems="stretch"
         sx={{
-          justifyContent: "center",
-          display: "flex",
-          alignItems: "center",
           textAlign: "center",
-          boxShadow: 0,
-          border: 0,
           margin: 0,
-          padding: "1 rem 1.5rem",
-          borderRadius: 8,
-          boxShadow: "0 0 0 0",
+          backgroundColor: "inherit",
         }}
       >
         <Grid item sm={6} md={3}>
@@ -47,7 +40,7 @@ function Home() {
           <CardHomeRotas />
         </Grid>
       </Grid>
-    <Grid item height={200} xs={12}>
+      <Grid item height={200} xs={12}>
         <Typography>Parceiros</Typography>
       </Grid>
       <Grid item height={500} xs={12}>

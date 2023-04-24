@@ -11,11 +11,12 @@ import iconInfo from "../assets/icon-info.png";
 
 function CardHomeEventos() {
   return (
-    <CardActionArea href="/Eventos">
+    <CardActionArea href="/eventos">
       <Card
         sx={{
           maxWidth: 345,
           boxShadow: 0,
+          backgroundColor: "inherit",
         }}
       >
         <CardMedia
@@ -46,8 +47,14 @@ function CardHomeEventos() {
 
 function CardHomeReciclagem() {
   return (
-    <CardActionArea href="/Instrucoes">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/instrucoes">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
@@ -75,8 +82,14 @@ function CardHomeReciclagem() {
 
 function CardHomeInfo() {
   return (
-    <CardActionArea href="/Projeto">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/projeto">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
@@ -105,8 +118,14 @@ function CardHomeInfo() {
 
 function CardHomeRotas() {
   return (
-    <CardActionArea href="/Coleta">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/coleta">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
