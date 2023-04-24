@@ -1,5 +1,6 @@
 import { Card, CardHeader, Typography, Grid } from "@mui/material";
 import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 function Home() {
   return (
     <Grid container p={2} spacing={2}>
@@ -57,12 +58,13 @@ function Home() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item height={200} xs={12}>
-        <Typography>Footer</Typography>
+      <Grid item xs={12}>
+        <Footer />
       </Grid>
     </Grid>
     //</Box>
   );
 }
+
 
 export { Home };
