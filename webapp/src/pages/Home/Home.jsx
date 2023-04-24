@@ -6,6 +6,7 @@ import {
   CardHomeReciclagem,
   CardHomeRotas,
 } from "../../components/CardHome";
+import { Footer } from "../../components/Footer";
 
 function Home() {
   return (
@@ -70,12 +71,13 @@ function Home() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item height={200} xs={12}>
-        <Typography>Footer</Typography>
+      <Grid item xs={12}>
+        <Footer />
       </Grid>
     </Grid>
     //</Box>
   );
 }
+
 
 export { Home };
