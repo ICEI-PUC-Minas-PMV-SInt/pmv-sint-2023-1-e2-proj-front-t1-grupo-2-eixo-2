@@ -26,7 +26,7 @@ function Parceiros() {
           lg={1.5}
           md={2}
           sm={3}
-          xs={4}
+          xs={6}
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -46,7 +46,7 @@ function Parceiros() {
           lg={3.4}
           md={5}
           sm={6}
-          xs={8}
+          xs={12}
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -62,7 +62,7 @@ function Parceiros() {
           lg={1.8}
           md={3}
           sm={3}
-          xs={4}
+          xs={6}
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -78,7 +78,7 @@ function Parceiros() {
           lg={1.3}
           md={2}
           sm={4}
-          xs={4}
+          xs={6}
           sx={{
             display: "flex",
             justifyContent: "center",
