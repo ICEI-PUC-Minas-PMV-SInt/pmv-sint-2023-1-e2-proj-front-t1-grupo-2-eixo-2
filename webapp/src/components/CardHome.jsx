@@ -1,9 +1,12 @@
 import * as React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Grid,
+  Typography,
+} from "@mui/material";
 import iconEventos from "../assets/icon-eventos.png";
 import iconReciclagem from "../assets/icon-reciclagem.png";
 import iconRotas from "../assets/icon-rotas.png";
@@ -11,11 +14,12 @@ import iconInfo from "../assets/icon-info.png";
 
 function CardHomeEventos() {
   return (
-    <CardActionArea href="/Eventos">
+    <CardActionArea href="/eventos">
       <Card
         sx={{
           maxWidth: 345,
           boxShadow: 0,
+          backgroundColor: "inherit",
         }}
       >
         <CardMedia
@@ -46,8 +50,14 @@ function CardHomeEventos() {
 
 function CardHomeReciclagem() {
   return (
-    <CardActionArea href="/Instrucoes">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/instrucoes">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
@@ -75,8 +85,14 @@ function CardHomeReciclagem() {
 
 function CardHomeInfo() {
   return (
-    <CardActionArea href="/Projeto">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/projeto">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
@@ -105,8 +121,14 @@ function CardHomeInfo() {
 
 function CardHomeRotas() {
   return (
-    <CardActionArea href="/Coleta">
-      <Card sx={{ maxWidth: 345, boxShadow: 0 }}>
+    <CardActionArea href="/coleta">
+      <Card
+        sx={{
+          maxWidth: 345,
+          boxShadow: 0,
+          backgroundColor: "inherit",
+        }}
+      >
         <CardMedia
           sx={{
             height: 64,
@@ -131,4 +153,34 @@ function CardHomeRotas() {
     </CardActionArea>
   );
 }
-export { CardHomeEventos, CardHomeReciclagem, CardHomeInfo, CardHomeRotas };
+
+function CardsHome() {
+  return (
+    <Grid
+      container
+      spacing={2}
+      justifyContent="space-evenly"
+      alignItems="stretch"
+      sx={{
+        textAlign: "center",
+        margin: 0,
+        backgroundColor: "inherit",
+      }}
+    >
+      <Grid item sm={6} md={3}>
+        <CardHomeEventos />
+      </Grid>
+      <Grid item sm={6} md={3}>
+        <CardHomeReciclagem />
+      </Grid>
+      <Grid item sm={6} md={3}>
+        <CardHomeInfo />
+      </Grid>
+      <Grid item sm={6} md={3}>
+        <CardHomeRotas />
+      </Grid>
+    </Grid>
+  );
+}
+
+export { CardsHome };
