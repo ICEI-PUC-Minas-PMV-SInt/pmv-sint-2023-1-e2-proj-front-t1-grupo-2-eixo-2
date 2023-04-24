@@ -7,10 +7,11 @@ import {
   CardHomeRotas,
 } from "../../components/CardHome";
 import { Footer } from "../../components/Footer";
+import { Parceiros } from "../../components/Parceiros";
 
 function Home() {
   return (
-    <Grid container p={2} spacing={2}>
+    <Grid container>
       <Grid item height={108} xs={12}>
         <Header />
       </Grid>
@@ -48,9 +49,7 @@ function Home() {
           <CardHomeRotas />
         </Grid>
       </Grid>
-    <Grid item height={200} xs={12}>
-        <Typography>Parceiros</Typography>
-      </Grid>
+      <Parceiros />
       <Grid item height={500} xs={12}>
         <Typography>Notícias</Typography>
         <Grid container>
@@ -78,6 +77,5 @@ function Home() {
     //</Box>
   );
 }
-
 
 export { Home };
