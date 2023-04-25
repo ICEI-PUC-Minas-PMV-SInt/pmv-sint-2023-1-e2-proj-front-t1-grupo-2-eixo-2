@@ -1,4 +1,4 @@
-# ♻️ Projeto Recicla
+# ♻️ Projeto Catapiri
 
 🖥️ `Sistemas para Internet`
 
