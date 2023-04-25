@@ -6,7 +6,7 @@ import { Parceiros } from "../../components/Parceiros";
 
 function Home() {
   return (
-    <Grid container>
+    <Grid container justifyContent="center" alignItems="center" padding={2}>
       <Grid item height={108} xs={12}>
         <Header />
       </Grid>

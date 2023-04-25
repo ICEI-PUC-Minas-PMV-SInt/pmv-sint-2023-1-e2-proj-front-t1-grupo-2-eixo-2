@@ -7,7 +7,15 @@ import logoPrefeitura from "../assets/logo-prefeitura-sec-meio-ambiente.jpeg";
 
 function Parceiros() {
   return (
-    <Grid container sm={12} sx={{ backgroundColor: "white" }}>
+    <Grid
+      container
+      sx={{
+        backgroundColor: "white",
+        margin: "0 -32px 0 0px ",
+        marginLeft: "-32px",
+        width: "102.858%",
+      }}
+    >
       <Typography variant="h5" sx={{ margin: 2 }}>
         Parceiros
       </Typography>
@@ -18,7 +26,9 @@ function Parceiros() {
         spacing={0}
         justifyContent="center"
         alignItems="center"
-        sx={{ backgroundColor: "white" }}
+        sx={{
+          backgroundColor: "white",
+        }}
       >
         <Grid
           item
