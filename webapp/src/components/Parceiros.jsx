@@ -11,9 +11,6 @@ function Parceiros() {
       container
       sx={{
         backgroundColor: "white",
-        margin: "0 -32px 0 0px ",
-        marginLeft: "-32px",
-        width: "102.858%",
       }}
     >
       <Typography variant="h5" sx={{ margin: 2 }}>

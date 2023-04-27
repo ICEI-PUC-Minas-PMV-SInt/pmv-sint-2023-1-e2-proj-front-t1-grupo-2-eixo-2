@@ -12,9 +12,6 @@ function Footer() {
       spacing={2}
       sx={{
         backgroundColor: "white",
-        margin: "0 -32px -32px 0px ",
-        marginLeft: "-32px",
-        width: "102.858%",
       }}
     >
       <Grid item xs={12} sm={6} md={4}>
