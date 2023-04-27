@@ -17,7 +17,6 @@ function CardHomeEventos() {
     <CardActionArea href="/eventos">
       <Card
         sx={{
-          maxWidth: 345,
           boxShadow: 0,
           backgroundColor: "inherit",
         }}
@@ -28,19 +27,18 @@ function CardHomeEventos() {
             width: 64,
             margin: "auto",
             marginTop: 2,
-            marginBottom: 2,
           }}
           component="img"
           image={iconEventos}
           alt="logo eventos"
         />
-        <CardContent>
+        <CardContent sx={{ textAlign: "center" }}>
           <Typography gutterBottom variant="h6" component="div">
             Calendário de Eventos
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Fique por dentro de todos os eventos realizados pelo projeto
-            catapiri
+            Fique por dentro de todos os eventos realizados pelo Projeto
+            Catapiri.
           </Typography>
         </CardContent>
       </Card>
@@ -53,7 +51,6 @@ function CardHomeReciclagem() {
     <CardActionArea href="/instrucoes">
       <Card
         sx={{
-          maxWidth: 345,
           boxShadow: 0,
           backgroundColor: "inherit",
         }}
@@ -64,18 +61,17 @@ function CardHomeReciclagem() {
             width: 64,
             margin: "auto",
             marginTop: 2,
-            marginBottom: 2,
           }}
           component="img"
           image={iconReciclagem}
           alt="logo reciclagem"
         />
-        <CardContent>
+        <CardContent sx={{ textAlign: "center" }}>
           <Typography gutterBottom variant="h6" component="div">
             Saiba como Separar{" "}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Descubra a forma ideal de separar e descartar o seu lixo
+            Descubra a forma correta de separar e descartar o seu lixo.
           </Typography>
         </CardContent>
       </Card>
@@ -88,7 +84,6 @@ function CardHomeInfo() {
     <CardActionArea href="/projeto">
       <Card
         sx={{
-          maxWidth: 345,
           boxShadow: 0,
           backgroundColor: "inherit",
         }}
@@ -99,19 +94,18 @@ function CardHomeInfo() {
             width: 64,
             margin: "auto",
             marginTop: 2,
-            marginBottom: 2,
           }}
           component="img"
           image={iconInfo}
           alt="logo info"
         />
-        <CardContent>
+        <CardContent sx={{ textAlign: "center" }}>
           <Typography gutterBottom variant="h6" component="div">
             O Problema do Lixo
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Saiba o motivo do projeto catapiri existir e como o lixo tem um
-            impacto enorme
+            Saiba o motivo do Projeto Catapiri existir e como o lixo tem um
+            impacto enorme.
           </Typography>
         </CardContent>
       </Card>
@@ -124,7 +118,6 @@ function CardHomeRotas() {
     <CardActionArea href="/coleta">
       <Card
         sx={{
-          maxWidth: 345,
           boxShadow: 0,
           backgroundColor: "inherit",
         }}
@@ -135,18 +128,18 @@ function CardHomeRotas() {
             width: 64,
             margin: "auto",
             marginTop: 2,
-            marginBottom: 2,
           }}
           component="img"
           image={iconRotas}
           alt="logo rotas"
         />
-        <CardContent>
+        <CardContent sx={{ textAlign: "center" }}>
           <Typography gutterBottom variant="h6" component="div">
             Rotas de Coleta{" "}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Veja as rotas de coleta que o projeto catapiri abrange na sua região
+            Veja as rotas de coleta que o projeto catapiri abrange na sua
+            região.
           </Typography>
         </CardContent>
       </Card>
@@ -156,17 +149,7 @@ function CardHomeRotas() {
 
 function CardsHome() {
   return (
-    <Grid
-      container
-      spacing={2}
-      justifyContent="space-evenly"
-      alignItems="stretch"
-      sx={{
-        textAlign: "center",
-        margin: 0,
-        backgroundColor: "inherit",
-      }}
-    >
+    <Grid container spacing={2}>
       <Grid item sm={6} md={3}>
         <CardHomeEventos />
       </Grid>

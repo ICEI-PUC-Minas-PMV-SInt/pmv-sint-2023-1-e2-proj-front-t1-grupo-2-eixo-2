@@ -7,13 +7,8 @@ import logoPrefeitura from "../assets/logo-prefeitura-sec-meio-ambiente.jpeg";
 
 function Parceiros() {
   return (
-    <Grid
-      container
-      sx={{
-        backgroundColor: "white",
-      }}
-    >
-      <Typography variant="h5" sx={{ margin: 2 }}>
+    <Grid container bgcolor={"white"} padding={3}>
+      <Typography variant="h5" marginBottom={3}>
         Parceiros
       </Typography>
       <Grid

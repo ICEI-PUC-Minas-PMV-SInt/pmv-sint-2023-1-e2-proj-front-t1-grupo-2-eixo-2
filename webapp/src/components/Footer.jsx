@@ -7,19 +7,9 @@ import logo from "../assets/logo-catapiri.png";
 
 function Footer() {
   return (
-    <Grid
-      container
-      spacing={2}
-      sx={{
-        backgroundColor: "white",
-      }}
-    >
+    <Grid container bgcolor={"white"} padding={3}>
       <Grid item xs={12} sm={6} md={4}>
-        <Typography
-          variant="h5"
-          color="secondary"
-          sx={{ marginInlineStart: 2 }}
-        >
+        <Typography variant="h5" color="secondary">
           Links Rápidos
         </Typography>
         <List>
