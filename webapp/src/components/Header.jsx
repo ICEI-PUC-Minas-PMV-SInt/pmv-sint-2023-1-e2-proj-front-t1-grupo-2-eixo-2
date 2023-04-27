@@ -60,7 +60,7 @@ function Header() {
   return (
     <AppBar
       component="nav"
-      position="sticky"
+      position="static"
       color="transparent"
       sx={{ boxShadow: "none" }}
     >
