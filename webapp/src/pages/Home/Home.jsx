@@ -14,15 +14,17 @@ function Home() {
       <Grid item xs={12}>
         <BannerDestaque />
       </Grid>
-      <Grid item xs={12}>
+      <Grid p={2} item xs={12}>
         <CardsHome />
       </Grid>
       <Grid item xs={12}>
         <Parceiros />
       </Grid>
 
-      <Grid item height={500} xs={12}>
-        <Typography>Notícias</Typography>
+      <Grid item height={500} xs={12} padding={3}>
+        <Typography variant="h5" marginBottom={3}>
+          Notícias
+        </Typography>
         <Grid container>
           <Grid item xs={4}>
             <Card>
