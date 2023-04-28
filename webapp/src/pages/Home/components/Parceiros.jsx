@@ -1,9 +1,9 @@
 import { Grid, Link, Typography } from "@mui/material";
-import logoPiriRecicla from "../assets/logo-pirirecicla.png";
-import logoCoepi from "../assets/logo-coepi.png";
-import logoIdec from "../assets/logo-idec.png";
-import logoGaw from "../assets/logo-GAW.png";
-import logoPrefeitura from "../assets/logo-prefeitura-sec-meio-ambiente.jpeg";
+import logoPiriRecicla from "../../../assets/logo-pirirecicla.png";
+import logoCoepi from "../../../assets/logo-coepi.png";
+import logoIdec from "../../../assets/logo-idec.png";
+import logoGaw from "../../../assets/logo-GAW.png";
+import logoPrefeitura from "../../../assets/logo-prefeitura-sec-meio-ambiente.jpeg";
 
 function Parceiros() {
   return (
