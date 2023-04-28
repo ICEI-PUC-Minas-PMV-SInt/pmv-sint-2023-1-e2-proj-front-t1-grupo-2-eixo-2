@@ -10,17 +10,22 @@ import {
 //função para criar a página de coleta, incluindo o mapa e os dias da semana
 function Coleta() {
   return (
-    <Grid container justifyContent="center" alignItems="center" padding={2}>
-      <Header />
+    <Grid container justifyContent="center" alignItems="center">
+      <Grid item xs={12} bgcolor="white">
+        <Header />
+      </Grid>
+
       <Grid item xs={12}>
-        <Typography variant="h3" xs={12} padding={2}>
+        <Typography variant="h3" xs={12} p={3}>
           Coleta Seletiva em Pirenópolis / Goiás
         </Typography>
       </Grid>
 
-      <MapaColeta />
+      <Grid item xs={12} bgcolor="white">
+        <MapaColeta />
+      </Grid>
 
-      <Grid item xs={12} p={2}>
+      <Grid item xs={12} p={3}>
         <Typography variant="h4">Horários da Coleta Seletiva</Typography>
       </Grid>
       <Grid
@@ -30,7 +35,7 @@ function Coleta() {
         direction="row"
         justifyContent="space-evenly"
         alignItems="baseline"
-        sx={{ backgroundColor: "inherit" }}
+        bgcolor="inherit"
       >
         <DiaEntregaCard
           dia={"Segunda-feira"}

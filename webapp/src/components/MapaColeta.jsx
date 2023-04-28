@@ -3,15 +3,7 @@ import { Grid, Typography } from "@mui/material";
 
 function MapaColeta() {
   return (
-    <Grid
-      container
-      sx={{
-        backgroundColor: "white",
-        margin: "0 -32px 0 0px ",
-        marginLeft: "-32px",
-        width: "102.858%",
-      }}
-    >
+    <Grid container>
       <Grid item xs={12} p={2} marginLeft={2}>
         <Typography variant="h4">Mapa dos Pontos de Coleta Seletiva</Typography>
         <Typography variant="p">
