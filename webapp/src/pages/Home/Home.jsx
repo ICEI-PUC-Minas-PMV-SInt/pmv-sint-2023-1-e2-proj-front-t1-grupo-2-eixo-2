@@ -6,6 +6,7 @@ import {
   CardHomeReciclagem,
   CardHomeRotas,
 } from "../../components/CardHome";
+import shadows from "@mui/material/styles/shadows";
 
 function Home() {
   return (
@@ -31,7 +32,6 @@ function Home() {
           margin: 0,
           padding: "1 rem 1.5rem",
           borderRadius: 8,
-          boxShadow: "0 0 0 0",
         }}
       >
         <Grid item sm={6} md={3}>
