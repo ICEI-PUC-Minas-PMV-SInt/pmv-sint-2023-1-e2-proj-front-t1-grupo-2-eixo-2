@@ -62,7 +62,7 @@ function Header() {
       component="nav"
       position="static"
       color="transparent"
-      sx={{ boxShadow: "none" }}
+      sx={{ boxShadow: "none", padding: 2 }}
     >
       <Container maxWidth="x1">
         <Toolbar disableGutters>

@@ -8,7 +8,7 @@ import { Footer } from "../../components/Footer";
 function Eventos() {
   return (
     <Grid container justifyContent="center" alignItems="center">
-      <Grid item height={108} xs={12} bgcolor={"white"}>
+      <Grid item xs={12} bgcolor={"white"}>
         <Header />
       </Grid>
       <Box p={8}>
@@ -51,7 +51,7 @@ function Eventos() {
         </Grid>
         {/* Fim Eventos Passados */}
       </Box>
-      <Grid item height={500} xs={12}>
+      <Grid item xs={12}>
         <Footer />
       </Grid>
     </Grid>
