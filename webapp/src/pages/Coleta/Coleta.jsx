@@ -1,11 +1,8 @@
 import { Grid, Typography } from "@mui/material";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
-import { MapaColeta } from "../../components/MapaColeta";
-import {
-  DiaEntregaCard,
-  DiaSemEntregaCard,
-} from "../../components/CardDiasColeta";
+import { MapaColeta } from "./components/MapaColeta";
+import { DiaEntregaCard, DiaSemEntregaCard } from "./components/CardDiasColeta";
 
 //função para criar a página de coleta, incluindo o mapa e os dias da semana
 function Coleta() {

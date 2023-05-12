@@ -1,9 +1,9 @@
 import { Card, CardHeader, Typography, Grid } from "@mui/material";
 import { Header } from "../../components/Header";
 import { BannerDestaque } from "./components/BannerDestaque";
-import { CardsHome } from "../../components/CardHome";
+import { CardsHome } from "./components/CardHome";
 import { Footer } from "../../components/Footer";
-import { Parceiros } from "../../components/Parceiros";
+import { Parceiros } from "./components/Parceiros";
 
 function Home() {
   return (

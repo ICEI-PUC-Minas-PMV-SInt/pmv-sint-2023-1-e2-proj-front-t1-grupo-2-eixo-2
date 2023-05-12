@@ -7,10 +7,10 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import iconEventos from "../assets/icon-eventos.png";
-import iconReciclagem from "../assets/icon-reciclagem.png";
-import iconRotas from "../assets/icon-rotas.png";
-import iconInfo from "../assets/icon-info.png";
+import iconEventos from "../../../assets/icon-eventos.png";
+import iconReciclagem from "../../../assets/icon-reciclagem.png";
+import iconRotas from "../../../assets/icon-rotas.png";
+import iconInfo from "../../../assets/icon-info.png";
 
 function CardHomeEventos() {
   return (
