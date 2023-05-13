@@ -6,6 +6,15 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
+import imagen01 from '../../assets/imagen01.jpg';
+import reduzida from '../../assets/reduzida.jpg';
+import iniciativa from '../../assets/iniciativa.jpg';
+import empresa from '../../assets/empresa.jpg';
+import escola from '../../assets/escola.jpg';
+
+
+
+
 
 
 function Noticias() {
@@ -13,27 +22,27 @@ function Noticias() {
   const noticias = [
     {
       titulo: 'Comunidade se une em prol da reciclagem e transforma resíduos em arte',
-      imagem: './docs/img/imagen01.jpg',
+      imagem:  imagen01,
       conteudo: 'Conteúdo da notícia principal',
     },
     {
       titulo: 'Cidade implementa programa de reciclagem e reduzirá emissão de resíduos',
-      imagem: 'caminho/para/imagem.jpg',
+      imagem: reduzida,
       conteudo: 'A cidade XYZ anunciou o lançamento de um programa abrangente de reciclagem...',
     },
     {
       titulo: 'Iniciativa de reciclagem transforma resíduos em materiais de construção',
-      imagem: 'caminho/para/imagem.jpg',
+      imagem: iniciativa,
       conteudo: 'Uma nova iniciativa de reciclagem está transformando resíduos em recursos valiosos...',
     },
     {
-      titulo: 'Empresa lança programa de coleta de eletrônicos para reciclagem responsável',
-      imagem: 'caminho/para/imagem.jpg',
+      titulo: 'Empresa lança programa de coleta de eletrônicos para reciclagem ...',
+      imagem: empresa,
       conteudo: 'Uma empresa líder em tecnologia anunciou o lançamento de um programa de coleta de eletrônicos...',
     },
     {
-      titulo: 'Estudantes promovem campanha de conscientização sobre reciclagem nas escolas locais',
-      imagem: 'caminho/para/imagem.jpg',
+      titulo: 'Estudantes promovem campanha de conscientização sobre reciclagem nas esco...',
+      imagem: escola,
       conteudo: 'Um grupo de estudantes entusiasmados está fazendo a diferença na comunidade por meio de uma campanha...',
     },
   ];
