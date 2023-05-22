@@ -14,32 +14,32 @@ function Footer() {
         </Typography>
         <List>
           <ListItem>
-            <Link href="/" color="inherit">
+            <Link href="/" color="inherit" underline="none">
               Home
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/artigo" color="inherit">
+            <Link href="/artigo" color="inherit" underline="none">
               O problema do Lixo
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/projeto" color="inherit">
+            <Link href="/projeto" color="inherit" underline="none">
               Sobre o Projeto
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/instrucoes" color="inherit">
+            <Link href="/instrucoes" color="inherit" underline="none">
               Como separar o Lixo
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/eventos" color="inherit">
+            <Link href="/eventos" color="inherit" underline="none">
               Calendários de eventos
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/noticias" color="inherit">
+            <Link href="/noticias" color="inherit" underline="none">
               Notícias
             </Link>
           </ListItem>
