@@ -41,7 +41,7 @@ function Instrucoes() {
             <RecyclingIcon fontSize="large" color="#222" />
             <CardContent>
               <Typography variant="h6" textAlign="center" paddingBottom=".5em">
-                Separe recicláveis dos orgânicos
+                Separe recicláveis dos orgânicos 
               </Typography>
               <Typography variant="body2" textAlign="center">
                 Separe os materiais recicláveis dos orgânicos: Certifique-se de
@@ -91,7 +91,7 @@ function Instrucoes() {
             <RecyclingIcon fontSize="large" color="#222" />
             <CardContent>
               <Typography variant="h6" textAlign="center" paddingBottom=".5em">
-                Mantenha os papéis secos
+                Mantenha os papéis secos e desamassados
               </Typography>
               <Typography variant="body2" textAlign="center">
                 Cuide dos papéis: Certifique-se de que os papéis estejam secos
