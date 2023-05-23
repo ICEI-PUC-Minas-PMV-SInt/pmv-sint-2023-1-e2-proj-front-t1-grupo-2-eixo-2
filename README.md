@@ -11,7 +11,7 @@ O projeto se trata de uma plataforma web que concentrará informações sobre re
 ## 🧠 Integrantes
 
 - Andrey Giovanni Ribeiro de Castilho Costa
-- Angélica Scot de Almeida
+- Angélica Almeida
 - Maria Michele de Freitas
 - Matheus Soares De Sales
 - Nicolas Felipe Petrachin Wulk
