@@ -27,4 +27,4 @@ function Artigo() {
   );
 }
 
- export {Artigo}
+ export {Artigo};
