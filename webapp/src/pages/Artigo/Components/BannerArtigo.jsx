@@ -1,3 +1,4 @@
+import {Paper} from "@mui/material"
 import IMGBANNER from "../../../assets/garota-e-lixo.png";
 
 export function BannerArtigo() {

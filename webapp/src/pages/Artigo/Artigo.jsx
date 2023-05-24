@@ -9,14 +9,14 @@ function Artigo() {
       <Grid item xs={12} bgcolor={"white"}>
         <Header />
         <BannerArtigo/>
-        <grid item xs={12}
+        <Grid item xs={12}
         sx={{
         display: "flex",
         alignItems: "flex-end",
         flexDirection: "column",
         padding: 1,
       }} 
-      > </grid>
+      > </Grid>
       <Typography variant="h4" xs={12} padding={4}>
         O problema do Lixo </Typography>
         <Typography variant="body1" xs={12} p={4}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusamus, sed ipsam assumenda dignissimos, cum exercitationem at expedita atque rerum molestias recusandae? Facilis et ea repellat dignissimos, voluptates omnis. Quibusdam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores quasi amet fuga at illo doloribus et, maiores perferendis deserunt quis nihil! Ea quos id repellat aut cupiditate, dolorum exercitationem fugit? <> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam non modi, aperiam quae amet debitis autem itaque nostrum officiis quam laudantium odio quibusdam deserunt, laboriosam ratione ipsa? Repellat, eligendi magni? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate distinctio illo reprehenderit iusto autem nihil ea totam ut dolorum quo alias debitis veniam ad similique corporis commodi quaerat, saepe ipsa.</></Typography>
