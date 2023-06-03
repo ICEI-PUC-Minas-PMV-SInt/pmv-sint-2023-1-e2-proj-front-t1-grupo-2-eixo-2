@@ -3,7 +3,9 @@ import lixeirasreciclaveis from "../../assets/garrafa-plastica-parque.png";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 
-const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum luctus rhoncus. Curabitur nec vulputate elit. Mauris tempus mattis nulla nec tempor. Donec vitae odio eu quam suscipit posuere. Phasellus sed nulla suscipit lectus gravida lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed varius felis vitae ipsum dapibus, ac hendrerit tellus laoreet. In tellus erat, fermentum ac velit imperdiet, posuere egestas ipsum..`;
+const text = `A Associação de Catadores de Materiais Recicláveis de Pirenópolis - CATAPIRI foi fundada em 2013. Atualmente possui cerca de 20 associados, que trabalham com a coleta, separação e destinação de materiais recicláveis. O galpão da CATAPIRI, sede da Associação, está localizada no antigo lixão de Pirenópolis, às margens da GO 431. 
+
+Os catadores da CATAPIRI são quem realizam a coleta seletiva no município, implementada pela Prefeitura em 2021. Além disso, oferecem palestras sobre separação de resíduos para estabelecimentos, e também ofertam o serviço de coleta e separação de resíduos em eventos.`;
 
 function Projeto() {
   return (
