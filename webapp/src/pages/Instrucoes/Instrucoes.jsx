@@ -1,4 +1,11 @@
-import { Grid, Card, Box, CardContent } from "@mui/material";
+import {
+  Grid,
+  Card,
+  Box,
+  CardContent,
+  Zoom,
+  CardActionArea,
+} from "@mui/material";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 import Typography from "@mui/material/Typography";
@@ -27,83 +34,129 @@ function Instrucoes() {
         />
       </Card>
 
-      <Box width="100%" display="flex" justifyContent="center" flexWrap="wrap">
-        <Box width="300px" padding=".7em">
-          <Card
+      {/* <Box width="100%" display="flex" justifyContent="center" flexWrap="wrap"> */}
+      <Grid
+        container
+        spacing={3}
+        p={3}
+        justifyContent="center"
+        alignItems="stretch"
+        direction="row"
+      >
+        <Grid item xs={12} md={4}>
+          <CardActionArea
+            disableRipple
             sx={{
-              display: "flex",
-              justifyContent: "center",
-              flexDirection: "column",
-              alignItems: "center",
-              padding: "1em",
+              height: "100%",
+              cursor: "default",
             }}
           >
-            <RecyclingIcon fontSize="large" color="#222" />
-            <CardContent>
-              <Typography variant="h6" textAlign="center" paddingBottom=".5em">
-                Separe recicláveis dos orgânicos 
-              </Typography>
-              <Typography variant="body2" textAlign="center">
-                Separe os materiais recicláveis dos orgânicos: Certifique-se de
-                não misturar os resíduos recicláveis, como plásticos, vidros,
-                metais e papéis, com os resíduos orgânicos, como sobras de
-                alimentos, cascas de frutas e legumes. Coloque esses dois tipos
-                de resíduos em sacos separados.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        <Box width="300px" padding=".7em">
-          <Card
+            <Card
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                padding: "1em",
+                height: "100%",
+              }}
+            >
+              <RecyclingIcon fontSize="large" color="#222" />
+              <CardContent>
+                <Typography
+                  variant="h6"
+                  textAlign="center"
+                  paddingBottom=".5em"
+                >
+                  Separe recicláveis dos orgânicos
+                </Typography>
+                <Typography variant="body2" textAlign="center">
+                  Separe os materiais recicláveis dos orgânicos: Certifique-se
+                  de não misturar os resíduos recicláveis, como plásticos,
+                  vidros, metais e papéis, com os resíduos orgânicos, como
+                  sobras de alimentos, cascas de frutas e legumes. Coloque esses
+                  dois tipos de resíduos em sacos separados.
+                </Typography>
+              </CardContent>
+            </Card>
+          </CardActionArea>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <CardActionArea
+            disableRipple
             sx={{
-              display: "flex",
-              justifyContent: "center",
-              flexDirection: "column",
-              alignItems: "center",
-              padding: "1em",
+              height: "100%",
+              cursor: "default",
             }}
           >
-            <RecyclingIcon fontSize="large" color="#222" />
-            <CardContent>
-              <Typography variant="h6" textAlign="center" paddingBottom=".5em">
-                Limpe e seque as embalagens recicláveis
-              </Typography>
-              <Typography variant="body2" textAlign="center">
-                Limpe e seque as embalagens recicláveis: Antes de descartar as
-                embalagens do tipo longa vida, latas, garrafas e frascos de
-                vidro e plástico, lave-os para remover quaisquer resíduos. Em
-                seguida, certifique-se de secá-los completamente antes de
-                depositá-los nos coletores específicos para recicláveis.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        <Box width="300px" padding=".7em">
-          <Card
+            <Card
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                padding: "1em",
+                height: "100%",
+              }}
+            >
+              <RecyclingIcon fontSize="large" color="#222" />
+              <CardContent>
+                <Typography
+                  variant="h6"
+                  textAlign="center"
+                  paddingBottom=".5em"
+                >
+                  Limpe e seque as embalagens recicláveis
+                </Typography>
+                <Typography variant="body2" textAlign="center">
+                  Limpe e seque as embalagens recicláveis: Antes de descartar as
+                  embalagens do tipo longa vida, latas, garrafas e frascos de
+                  vidro e plástico, lave-os para remover quaisquer resíduos. Em
+                  seguida, certifique-se de secá-los completamente antes de
+                  depositá-los nos coletores específicos para recicláveis.
+                </Typography>
+              </CardContent>
+            </Card>
+          </CardActionArea>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <CardActionArea
+            disableRipple
             sx={{
-              display: "flex",
-              justifyContent: "center",
-              flexDirection: "column",
-              alignItems: "center",
-              padding: "1em",
+              height: "100%",
+              cursor: "default",
             }}
           >
-            <RecyclingIcon fontSize="large" color="#222" />
-            <CardContent>
-              <Typography variant="h6" textAlign="center" paddingBottom=".5em">
-                Mantenha os papéis secos e desamassados
-              </Typography>
-              <Typography variant="body2" textAlign="center">
-                Cuide dos papéis: Certifique-se de que os papéis estejam secos
-                antes de descartá-los. Embora possam ser dobrados para
-                economizar espaço, evite amassá-los, pois isso pode dificultar o
-                processo de reciclagem. Mantenha-os em boas condições para
-                garantir uma reciclagem eficiente.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-      </Box>
+            <Card
+              sx={{
+                display: "flex",
+
+                flexDirection: "column",
+                alignItems: "center",
+                padding: "1em",
+                height: "100%",
+              }}
+            >
+              <RecyclingIcon fontSize="large" color="#222" />
+              <CardContent>
+                <Typography
+                  variant="h6"
+                  textAlign="center"
+                  paddingBottom=".5em"
+                >
+                  Mantenha os papéis secos e desamassados
+                </Typography>
+                <Typography variant="body2" textAlign="center">
+                  Cuide dos papéis: Certifique-se de que os papéis estejam secos
+                  antes de descartá-los. Embora possam ser dobrados para
+                  economizar espaço, evite amassá-los, pois isso pode dificultar
+                  o processo de reciclagem. Mantenha-os em boas condições para
+                  garantir uma reciclagem eficiente.
+                </Typography>
+              </CardContent>
+            </Card>
+          </CardActionArea>
+        </Grid>
+      </Grid>
+      {/* </Box> */}
 
       <Grid xs={12} sm={10} md={12}>
         <Box
