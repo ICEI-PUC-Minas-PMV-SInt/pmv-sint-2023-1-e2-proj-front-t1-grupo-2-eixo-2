@@ -1,5 +1,5 @@
 import { Box, Typography, Grid } from "@mui/material";
-import lixeirasreciclaveis from "../../assets/garrafa-plastica-parque.png";
+import IMGPROJETO from "../../assets/catapiri.jpg";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
 
@@ -21,7 +21,7 @@ function Projeto() {
           </Box>
           <Box component="div">
             <img
-              src={lixeirasreciclaveis}
+              src={IMGPROJETO}
               alt=""
               style={{
                 display: "flex",
